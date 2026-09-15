@@ -3,14 +3,14 @@ Projeto da disciplina Ciência de Dados II focado no ciclo KDD para análise de 
 
 # Sistematização — Ciência de Dados II
 
-## 👥 Identificação
+## Identificação
 - **Nome Completo:** YASMIN PITANGA SILVA
 - **Matrícula:**: 72501459
 - **Disciplina:** Ciência de Dados II
 
 ---
 
-## 🎯 Descrição do Projeto
+## Descrição do Projeto
 Projeto de Ciência de Dados aplicando o ciclo de **KDD (Knowledge Discovery in Databases)** sobre um conjunto de dados de RH. O objetivo é identificar padrões de *turnover* e perfil dos colaboradores utilizando **Apache Spark (PySpark)**, **Spark SQL** e **MLlib**.
 
 ---
