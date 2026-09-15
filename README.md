@@ -1,29 +1,29 @@
-# Sistematizacao_CD2_HR_Analytics
-Projeto da disciplina Ciência de Dados II focado no ciclo KDD para análise de Turnover/Attrition de RH utilizando PySpark DataFrames, Spark SQL e MLlib.
-
-# Sistematização — Ciência de Dados II
 
 ## Identificação
 - **Nome Completo:** YASMIN PITANGA SILVA
 - **Matrícula:**: 72501459
 - **Disciplina:** Ciência de Dados II
 
----
+  
+# Projeto Data Science II — HR Analytics (KDD & PySpark)
 
-## Descrição do Projeto
-Projeto de Ciência de Dados aplicando o ciclo de **KDD (Knowledge Discovery in Databases)** sobre um conjunto de dados de RH. O objetivo é identificar padrões de *turnover* e perfil dos colaboradores utilizando **Apache Spark (PySpark)**, **Spark SQL** e **MLlib**.
+Este repositório contém a implementação do pipeline completo da metodologia **KDD (Knowledge Discovery in Databases)** para análise e predição de turnover de funcionários (*HR Analytics*).
 
----
+## 🛠️ Tecnologias e Bibliotecas
+* **Linguagem:** Python
+* **Motor Big Data:** PySpark (Spark SQL, DataFrames, MLlib)
+* **Visualização:** Matplotlib, Seaborn
+* **Ambiente de Execução:** Google Colab
 
-## Fonte dos Dados
-- **Dataset Original:** Retirada do Kaggle - HR Analytics (1.480 registros, 38 colunas)
-- **Justificativa Técnica:** Granularidade detalhada em nível individual com rica variedade de variáveis demográficas e organizacionais ideais para classificação e clusterização corporativa.
+## 📋 Estrutura do Pipeline (Metodologia KDD)
+1. **Seleção e Ingestão:** Carga do dataset `HR_Analytics.csv` em Spark DataFrames.
+2. **Pré-processamento:** Tratamento de valores nulos, conversão de tipos de dados e remoção de colunas invariantes.
+3. **Análise Exploratória (EDA):** Execução de 5 consultas em Spark SQL e gráficos comparativos.
+4. **Modelagem Preditiva:** Comparativo de classificação entre **Decision Tree** (AUC 0.73) e **Random Forest** (AUC 0.83).
+5. **Modelagem Descritiva:** Clusterização via **K-Means** (Silhueta 0.82) dividida em 3 perfis organizacionais.
+6. **Conclusões KDD:** Interpretação dos resultados para tomada de decisão no setor de RH.
 
----
-
-## Tecnologias Utilizadas
-- **Linguagem:** Python
-- **Processamento Distribuído:** Apache Spark (PySpark DataFrames e Spark SQL)
-- **Machine Learning:** PySpark MLlib (Classificação e Clusterização)
-- **Visualização de Dados:** Matplotlib & Seaborn
-- **Ambiente de Execução:** Google Colab
+## 🚀 Como Executar o Notebook
+1. Abra o arquivo `Sistematizacao_CD2_Pipeline_KDD.ipynb` no **Google Colab**.
+2. Garanta que o arquivo de dados `HR_Analytics.csv` esteja carregado no ambiente de execução do Colab.
+3. Execute todas as células em ordem sequencial (**Ambiente de Execução ➔ Executar tudo**).
