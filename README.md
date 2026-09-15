@@ -11,12 +11,12 @@ Este repositório contém a implementação do pipeline completo da metodologia 
 * **Fonte:**: https://www.kaggle.com/datasets/anshika2301/hr-analytics-dataset
 * **Arquivo:** `HR_Analytics.csv`
 
-## 🛠️ Tecnologias e Bibliotecas
+## Tecnologias e Bibliotecas
 * Python, PySpark (Spark SQL, DataFrames, MLlib)
 * Matplotlib, Seaborn
 * Google Colab & GitHub
 
-## 🚀 Como Executar o Notebook
+## Como Executar o Notebook
 1. Abra o arquivo `Sistematizacao_CD2_Pipeline_KDD.ipynb` no **Google Colab**.
 2. Faça o upload do arquivo `HR_Analytics.csv` no ambiente do Colab.
 3. Execute todas as células em ordem sequencial (**Ambiente de Execução ➔ Executar tudo**).
