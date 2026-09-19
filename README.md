@@ -13,7 +13,7 @@ Este repositório contém a implementação do pipeline completo da metodologia 
 
 ## Dataset Original
 
-* **Fonte:** [Kaggle - IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+* **Fonte:** https://www.kaggle.com/datasets/anshika2301/hr-analytics-dataset
 * **Arquivo:** `HR_Analytics.csv`
 
 ---
@@ -29,5 +29,5 @@ Este repositório contém a implementação do pipeline completo da metodologia 
 ## Como Executar o Notebook
 
 1. Abra o arquivo `Sistematizacao_CD2_Pipeline_KDD.ipynb` no Google Colab.
-2. Certifique-se de que a célula inicial de download automático (`!wget`) esteja presente.
+2. Certifique-se de que a primeira célula contém a instrução de download automático do dataset (`!wget`).
 3. Execute todas as células em ordem sequencial (**Ambiente de Execução ➔ Executar tudo**).
